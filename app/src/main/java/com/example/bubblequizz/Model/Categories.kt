@@ -1,5 +1,7 @@
 package com.example.bubblequizz.Model
 
+import com.example.bubblequizz.R
+
 
 /**
  * An instance of a question
@@ -52,95 +54,95 @@ enum class Type {
 enum class Categories {
     GeneralKnowledge {
         override val apiName = "General knowledge"
-        override val iconLocation = "../" //TODO (dewhs) Tu peux rajouter les icones là
+        override val iconLocation = R.drawable.earth //TODO (dewhs) Tu peux rajouter les icones là
     },
     EntertainmentBooks {
         override val apiName = "Entertainment: Books"
-        override val iconLocation = "../"
+        override val iconLocation = R.drawable.earth
     },
     EntertainmentFilm {
         override val apiName = "Entertainment: Film"
-        override val iconLocation = "../"
+        override val iconLocation = R.drawable.earth
     },
     EntertainmentMusic {
         override val apiName = "Entertainment: Music"
-        override val iconLocation = "../"
+        override val iconLocation = R.drawable.earth
     },
     EntertainmentTelevision {
         override val apiName = "Entertainment: Television"
-        override val iconLocation = "../"
+        override val iconLocation = R.drawable.earth
     },
     EntertainmentMusicalsAndTheatres {
         override val apiName = "Entertainment: Musicals & Theatres"
-        override val iconLocation = "../"
+        override val iconLocation = R.drawable.earth
     },
     EntertainmentVideoGames {
         override val apiName = "Entertainment: Video Games"
-        override val iconLocation = "../"
+        override val iconLocation = R.drawable.earth
     },
     EntertainmentBoardGames {
         override val apiName = "Entertainment: Board Games"
-        override val iconLocation = "../"
+        override val iconLocation = R.drawable.earth
     },
     ScienceAndNature {
         override val apiName = "Science & Nature"
-        override val iconLocation = "../"
+        override val iconLocation = R.drawable.leaf
     },
     ScienceComputer {
         override val apiName = "Science: Computers"
-        override val iconLocation = "../"
+        override val iconLocation = R.drawable.earth
     },
     Mythology {
         override val apiName = "Mythology"
-        override val iconLocation = "../"
+        override val iconLocation = R.drawable.earth
     },
     Sports {
         override val apiName = "Sports"
-        override val iconLocation = "../"
+        override val iconLocation = R.drawable.earth
     },
     Geography {
         override val apiName = "Geography"
-        override val iconLocation = "../"
+        override val iconLocation = R.drawable.map
     },
     History {
         override val apiName = "History"
-        override val iconLocation = "../"
+        override val iconLocation = R.drawable.time_fast
     },
     Politics {
         override val apiName = "Politics"
-        override val iconLocation = "../"
+        override val iconLocation = R.drawable.earth
     },
     Art {
         override val apiName = "Art"
-        override val iconLocation = "../"
+        override val iconLocation = R.drawable.earth
     },
     Celebrities {
         override val apiName = "Celebrities"
-        override val iconLocation = "../"
+        override val iconLocation = R.drawable.earth
     },
     Animals {
         override val apiName = "Animals"
-        override val iconLocation = "../"
+        override val iconLocation = R.drawable.earth
     },
     Vehicles {
         override val apiName = "Vehicles"
-        override val iconLocation = "../"
+        override val iconLocation = R.drawable.earth
     },
     EntertainmentComics {
         override val apiName = "Entertainment: Comics"
-        override val iconLocation = "../"
+        override val iconLocation = R.drawable.earth
     },
     EntertainmentGadgets {
         override val apiName = "Science: Gadgets"
-        override val iconLocation = "../"
+        override val iconLocation = R.drawable.earth
     },
     EntertainmentJapaneseAnimeAndManga {
         override val apiName = "Entertainment: Japanese Anime & Manga"
-        override val iconLocation = "../"
+        override val iconLocation = R.drawable.earth
     },
     EntertainmentCartoonAndAnimations {
         override val apiName = "Entertainment: Cartoon & Animations"
-        override val iconLocation = "../"
+        override val iconLocation = R.drawable.earth
     };
 
 
@@ -150,7 +152,7 @@ enum class Categories {
             return ordinal + 9
         }
     abstract val apiName: String;
-    abstract val iconLocation: String;
+    abstract val iconLocation: Int;
 
 
     companion object {
