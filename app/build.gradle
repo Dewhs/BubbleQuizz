@@ -51,6 +51,12 @@ android {
 
 dependencies {
 
+    //Database
+    def room_version = "2.5.2"
+    implementation("androidx.room:room-runtime:$room_version")
+    annotationProcessor("androidx.room:room-compiler:$room_version")
+
+
     implementation("androidx.navigation:navigation-compose:2.6.0")
 
     implementation 'androidx.compose.material3:material3'
