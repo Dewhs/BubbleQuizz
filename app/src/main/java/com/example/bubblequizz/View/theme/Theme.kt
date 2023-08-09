@@ -22,7 +22,7 @@ import com.example.bubblequizz.View.theme.Heading4
 
 
 
-/*https://developer.android.com/jetpack/compose/designsystems/custom?hl=fr#replacing-systems*/
+/*https://developer.android.com/jetpack/compose/designsystems/custom?hl=fr#replacing-systems
 @Immutable
 data class CustomColors(
     val PrimaryColor : Color,
@@ -94,82 +94,8 @@ object CustomTheme {
     val typography: CustomTypography
         @Composable
         get() = LocalCustomTypography.current
-}
-
-
-
-/*FIGMA Colors
-val PrimaryColor = Color(0x5136D9)
-val DarkColor = Color(0x302840)
-val GreyMidColor = Color(0x777380)
-val GreyLightColor = Color(0xF6F6F6)
-val LightColor = Color(0xF2EEFA)
-val RedColor = Color(0xD93636)
-*/
-
-
-
-/*
-private val DarkColorScheme = (
-    primary = Purple80,
-    secondary = PurpleGrey80,
-    tertiary = Pink80
-);
-
-private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
-    secondary = PurpleGrey40,
-    tertiary = Pink40
-
-    /* Other default colors to override
-    background = Color(0xFFFFFBFE),
-    surface = Color(0xFFFFFBFE),
-    onPrimary = Color.White,
-    onSecondary = Color.White,
-    onTertiary = Color.White,
-    onBackground = Color(0xFF1C1B1F),
-    onSurface = Color(0xFF1C1B1F),
-    */
-)
-
-val background = Color(0xFFFFFBFE)
-val surface = Color(0xFFFFFBFE)
-val onPrimary = Color.White
-val onSecondary = Color.White
-val onTertiary = Color.White
-val onBackground = Color(0xFF1C1B1F)
-val onSurface = Color(0xFF1C1B1F)
-*/
-
-/* J'ai commenté le thème pour l'instant parce qu'en fait on à tout fait en light et juste pour faire marcher pour l'instant mais faudra fixer ça*/
-/*@Composable
-fun BubbleQuizzTheme(
-    darkTheme: Boolean = isSystemInDarkTheme(),
-    // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
-    content: @Composable () -> Unit
-) {
-    val colorScheme = when {
-        dynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S -> {
-            val context = LocalContext.current
-            if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
-        }
-
-        darkTheme -> DarkColorScheme
-        else -> LightColorScheme
-    }
-    val view = LocalView.current
-    if (!view.isInEditMode) {
-        SideEffect {
-            val window = (view.context as Activity).window
-            window.statusBarColor = colorScheme.primary.toArgb()
-            WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = darkTheme
-        }
-    }
-
-    MaterialTheme(
-        colorScheme = colorScheme,
-        typography = Typography,
-        content = content
-    )
 }*/
+
+
+
+
