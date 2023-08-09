@@ -51,96 +51,96 @@ enum class Type {
  */
 enum class Categories {
     GeneralKnowledge {
-        override val apiName: String = "General knowledge"
-        override val iconLocation: String = "../" //TODO (dewhs) Tu peux rajouter les icones là
+        override val apiName = "General knowledge"
+        override val iconLocation = "../" //TODO (dewhs) Tu peux rajouter les icones là
     },
     EntertainmentBooks {
-        override val apiName: String = "Entertainment: Books"
-        override val iconLocation: String = "../"
+        override val apiName = "Entertainment: Books"
+        override val iconLocation = "../"
     },
     EntertainmentFilm {
-        override val apiName: String = "Entertainment: Film"
-        override val iconLocation: String = "../"
+        override val apiName = "Entertainment: Film"
+        override val iconLocation = "../"
     },
     EntertainmentMusic {
-        override val apiName: String = "Entertainment: Music"
-        override val iconLocation: String = "../"
+        override val apiName = "Entertainment: Music"
+        override val iconLocation = "../"
     },
     EntertainmentTelevision {
-        override val apiName: String = "Entertainment: Television"
-        override val iconLocation: String = "../"
+        override val apiName = "Entertainment: Television"
+        override val iconLocation = "../"
     },
     EntertainmentMusicalsAndTheatres {
-        override val apiName: String = "Entertainment: Musicals & Theatres"
-        override val iconLocation: String = "../"
+        override val apiName = "Entertainment: Musicals & Theatres"
+        override val iconLocation = "../"
     },
     EntertainmentVideoGames {
-        override val apiName: String = "Entertainment: Video Games"
-        override val iconLocation: String = "../"
+        override val apiName = "Entertainment: Video Games"
+        override val iconLocation = "../"
     },
     EntertainmentBoardGames {
-        override val apiName: String = "Entertainment: Board Games"
-        override val iconLocation: String = "../"
+        override val apiName = "Entertainment: Board Games"
+        override val iconLocation = "../"
     },
     ScienceAndNature {
-        override val apiName: String = "Science & Nature"
-        override val iconLocation: String = "../"
+        override val apiName = "Science & Nature"
+        override val iconLocation = "../"
     },
     ScienceComputer {
-        override val apiName: String = "Science: Computers"
-        override val iconLocation: String = "../"
+        override val apiName = "Science: Computers"
+        override val iconLocation = "../"
     },
     Mythology {
-        override val apiName: String = "Mythology"
-        override val iconLocation: String = "../"
+        override val apiName = "Mythology"
+        override val iconLocation = "../"
     },
     Sports {
-        override val apiName: String = "Sports"
-        override val iconLocation: String = "../"
+        override val apiName = "Sports"
+        override val iconLocation = "../"
     },
     Geography {
-        override val apiName: String = "Geography"
-        override val iconLocation: String = "../"
+        override val apiName = "Geography"
+        override val iconLocation = "../"
     },
     History {
-        override val apiName: String = "History"
-        override val iconLocation: String = "../"
+        override val apiName = "History"
+        override val iconLocation = "../"
     },
     Politics {
-        override val apiName: String = "Politics"
-        override val iconLocation: String = "../"
+        override val apiName = "Politics"
+        override val iconLocation = "../"
     },
     Art {
-        override val apiName: String = "Art"
-        override val iconLocation: String = "../"
+        override val apiName = "Art"
+        override val iconLocation = "../"
     },
     Celebrities {
-        override val apiName: String = "Celebrities"
-        override val iconLocation: String = "../"
+        override val apiName = "Celebrities"
+        override val iconLocation = "../"
     },
     Animals {
-        override val apiName: String = "Animals"
-        override val iconLocation: String = "../"
+        override val apiName = "Animals"
+        override val iconLocation = "../"
     },
     Vehicles {
-        override val apiName: String = "Vehicles"
-        override val iconLocation: String = "../"
+        override val apiName = "Vehicles"
+        override val iconLocation = "../"
     },
     EntertainmentComics {
-        override val apiName: String = "Entertainment: Comics"
-        override val iconLocation: String = "../"
+        override val apiName = "Entertainment: Comics"
+        override val iconLocation = "../"
     },
     EntertainmentGadgets {
-        override val apiName: String = "Science: Gadgets"
-        override val iconLocation: String = "../"
+        override val apiName = "Science: Gadgets"
+        override val iconLocation = "../"
     },
     EntertainmentJapaneseAnimeAndManga {
-        override val apiName: String = "Entertainment: Japanese Anime & Manga"
-        override val iconLocation: String = "../"
+        override val apiName = "Entertainment: Japanese Anime & Manga"
+        override val iconLocation = "../"
     },
     EntertainmentCartoonAndAnimations {
-        override val apiName: String = "Entertainment: Cartoon & Animations"
-        override val iconLocation: String = "../"
+        override val apiName = "Entertainment: Cartoon & Animations"
+        override val iconLocation = "../"
     };
 
 
