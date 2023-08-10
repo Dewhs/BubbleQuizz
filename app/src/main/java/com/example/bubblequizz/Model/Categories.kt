@@ -54,35 +54,35 @@ enum class Type {
 enum class Categories {
     GeneralKnowledge {
         override val apiName = "General knowledge"
-        override val iconLocation = R.drawable.earth //TODO (dewhs) Tu peux rajouter les icones là
+        override val iconLocation = R.drawable.head_thinking
     },
     EntertainmentBooks {
         override val apiName = "Entertainment: Books"
-        override val iconLocation = R.drawable.earth
+        override val iconLocation = R.drawable.book
     },
     EntertainmentFilm {
         override val apiName = "Entertainment: Film"
-        override val iconLocation = R.drawable.earth
+        override val iconLocation = R.drawable.film
     },
     EntertainmentMusic {
         override val apiName = "Entertainment: Music"
-        override val iconLocation = R.drawable.earth
+        override val iconLocation = R.drawable.music
     },
     EntertainmentTelevision {
         override val apiName = "Entertainment: Television"
-        override val iconLocation = R.drawable.earth
+        override val iconLocation = R.drawable.screen
     },
     EntertainmentMusicalsAndTheatres {
         override val apiName = "Entertainment: Musicals & Theatres"
-        override val iconLocation = R.drawable.earth
+        override val iconLocation = R.drawable.microphone
     },
     EntertainmentVideoGames {
         override val apiName = "Entertainment: Video Games"
-        override val iconLocation = R.drawable.earth
+        override val iconLocation = R.drawable.gamepad
     },
     EntertainmentBoardGames {
         override val apiName = "Entertainment: Board Games"
-        override val iconLocation = R.drawable.earth
+        override val iconLocation = R.drawable.dice
     },
     ScienceAndNature {
         override val apiName = "Science & Nature"
@@ -90,19 +90,19 @@ enum class Categories {
     },
     ScienceComputer {
         override val apiName = "Science: Computers"
-        override val iconLocation = R.drawable.earth
+        override val iconLocation = R.drawable.laptop
     },
     Mythology {
         override val apiName = "Mythology"
-        override val iconLocation = R.drawable.earth
+        override val iconLocation = R.drawable.myth
     },
     Sports {
         override val apiName = "Sports"
-        override val iconLocation = R.drawable.earth
+        override val iconLocation = R.drawable.basketball
     },
     Geography {
         override val apiName = "Geography"
-        override val iconLocation = R.drawable.map
+        override val iconLocation = R.drawable.earth
     },
     History {
         override val apiName = "History"
@@ -110,39 +110,39 @@ enum class Categories {
     },
     Politics {
         override val apiName = "Politics"
-        override val iconLocation = R.drawable.earth
+        override val iconLocation = R.drawable.flag
     },
     Art {
         override val apiName = "Art"
-        override val iconLocation = R.drawable.earth
+        override val iconLocation = R.drawable.palette
     },
     Celebrities {
         override val apiName = "Celebrities"
-        override val iconLocation = R.drawable.earth
+        override val iconLocation = R.drawable.star
     },
     Animals {
         override val apiName = "Animals"
-        override val iconLocation = R.drawable.earth
+        override val iconLocation = R.drawable.fox
     },
     Vehicles {
         override val apiName = "Vehicles"
-        override val iconLocation = R.drawable.earth
+        override val iconLocation = R.drawable.car
     },
     EntertainmentComics {
         override val apiName = "Entertainment: Comics"
-        override val iconLocation = R.drawable.earth
+        override val iconLocation = R.drawable.comments
     },
     EntertainmentGadgets {
         override val apiName = "Science: Gadgets"
-        override val iconLocation = R.drawable.earth
+        override val iconLocation = R.drawable.pendrive
     },
     EntertainmentJapaneseAnimeAndManga {
         override val apiName = "Entertainment: Japanese Anime & Manga"
-        override val iconLocation = R.drawable.earth
+        override val iconLocation = R.drawable.japanes_strength
     },
     EntertainmentCartoonAndAnimations {
         override val apiName = "Entertainment: Cartoon & Animations"
-        override val iconLocation = R.drawable.earth
+        override val iconLocation = R.drawable.wow
     };
 
 
