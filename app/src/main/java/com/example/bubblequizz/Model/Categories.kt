@@ -142,7 +142,7 @@ enum class Categories {
     },
     EntertainmentCartoonAndAnimations {
         override val apiName = "Entertainment: Cartoon & Animations"
-        override val iconLocation = R.drawable.wow
+        override val iconLocation = R.drawable.star_7
     };
 
 
