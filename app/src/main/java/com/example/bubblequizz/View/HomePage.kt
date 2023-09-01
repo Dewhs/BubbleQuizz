@@ -1,8 +1,10 @@
 package com.example.bubblequizz.ui.theme
 
 
+import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateContentSize
 import androidx.compose.animation.core.EaseInOut
+import androidx.compose.animation.core.EaseInOutExpo
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -46,10 +48,13 @@ import com.example.bubblequizz.View.theme.LightColor
 import com.example.bubblequizz.Model.Categories
 import kotlin.math.roundToInt
 
-@Preview
+
+
 @Composable
 fun HomePage(
 ) {
+
+
 
     /* Global container */
     Column(
@@ -101,16 +106,10 @@ fun CategoryCard(category: Categories) {
             .background(Color.White, shape = RoundedCornerShape(30.dp))
             .clickable {
                 expandedState = !expandedState
-                println("${category.apiName} Click !")
+                //println("${category.apiName} Click !")
             }
             .padding(25.dp)
-            .animateContentSize(
-                animationSpec = tween(
-                    durationMillis = 300,
-                    easing = EaseInOut
-                )
-            ),
-        ) {
+    ) {
         Row(
             verticalAlignment = Alignment.CenterVertically
         ) {
@@ -122,11 +121,13 @@ fun CategoryCard(category: Categories) {
                 style = Heading2
             )
         }
-        if (expandedState) {
+
+        AnimatedVisibility(visible = expandedState) {
             ScoreContainer()
         }
     }
 }
+
 
 @Composable
 fun ScoreContainer() {
@@ -151,9 +152,9 @@ fun ScoreContainer() {
     }
 }
 
+
 @Composable
-fun ScoreLine(username: String, score: Int, textStyle: TextStyle)
-{
+fun ScoreLine(username: String, score: Int, textStyle: TextStyle) {
     Row(
         modifier = Modifier
             .fillMaxWidth(),
